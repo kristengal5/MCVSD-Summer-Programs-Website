@@ -1,0 +1,93 @@
+<!--Kristen Gallagher-->
+
+<html>
+	<head>
+		<title>MCVSD Summer Enrichment Programs</title>
+		<link type="text/css" rel="stylesheet" href="styles.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="description" content="MCVSD Summer Enrichment Programs">
+  		<meta name="keywords" content="MCVSD, summer, enrichment, programs, courses, discover, camps, academies, register">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href='https://fonts.googleapis.com/css?family=Noto Serif' rel='stylesheet'>
+	</head>
+	<body>
+ 		<a href="index.html">
+ 			<div id="upperlefttext"><img class="upperleftimg" style="margin-top: -30px;width: 150px"src="./images/logo.png"></div>
+ 		</a>
+		<header class="header" style="margin-top: -60px;background-color: white;">
+ 			<a id="menu" class="header__menu"><img src="./images/ham.png" alt="three blue horizontal lines">
+ 			</a>
+ 		</header>
+
+
+
+ 		<nav id="drawer" class="nav"style="background-color: white; color:#15669D">
+ 			<a href="index.html">
+ 				<div id="logotop"><img src="./images/logo.png" style="width:150px; display:inline-block;margin-top:60px"></div>
+ 			</a>
+ 			<ul>
+        	<li class="nav__item" id="firstnav" style="display: inline-block; padding-right:16%; padding-left: 8%;color:black">
+        		<div class="dropdown">
+        		<a class="dropbtn" href="programs.html" style="padding-bottom:20px">Programs</a>
+        		<ul>
+        			<div class="dropdown_content">
+        			<li><a href="middle.html" class="use">Middle&nbspSchool&nbspPrograms</a></li>
+        			<li><a href="high.html" class="use">High&nbspSchool&nbspPrograms</a></li>
+        			<li><a href="adult.html" class="use">Adult&nbspPrograms</a></li>
+        			<li><a href="free.html" class="use">Free&nbspPrograms</a></li>
+        		</div>
+        	</ul>
+        	</div>
+        	</li>
+        	<li class="nav__item" id="secondnav"style="display: inline-block; padding-right:13%">
+        		<a href="contact.html">Contact</a>
+        	</li>
+        	<li class="nav__item" id="thirdnav"style="display: inline-block; padding-right:13%">
+        		<a href="https://cec.mcvsd.org/category/summer-classes/" target="blank">Register</a>
+
+        	</li>
+        	</ul>
+    	</nav>
+
+
+
+
+    	<main>
+			<div class="abovethefold" style="background-color:#FF8A8B">
+    			<div class="mediumtext" id="topheading" style="font-size:70px; margin-top: 100px;width: 100%;display: block;padding-top:70px; color: white; margin-bottom:-60px">Contact<br></div> 
+    			<div class="mediumtext" id="topheading" style="font-size:30px; margin-top: 30px; line-height: 60px;padding-right: 30px; padding-left: 30px; display: block;padding-top:70px; color: #16669F; margin-bottom:-60px">If you have any questions, you may contact Kelly Harmon, Director of Curriculum & Instruction<br> <a id="link"href=mailto:“kharmon@ctemc.org”>kharmon@ctemc.org</a><br>
+#1-732-431-7942 Ext. 8552<br></div> 
+				
+
+
+</div>
+				
+			<div class="footer" style="background-color: #15669D;">
+				<div width=100% justify-content=center margin-left=100px>
+					<div class="footertext" style="padding-left:30px; padding-right:30px; padding-bottom: 30px; display: inline-block;width:40%">Monmouth County Vocational School District</div>
+					<div class="footertext" style="padding-left:30px; width:40%;padding-right:30px; padding-bottom: 30px; display:inline-block"><a style="color: white"href="https://cec.mcvsd.org/category/summer-classes/">Register</a></div>
+					<div class="footertext" style="padding-left:30px; margin-top: 40px;font-size: 15px;width:40%;padding-right:30px; padding-bottom: 30px; display:inline-block">Designed & coded by Kristen Gallagher, Communications High School</div>
+					
+				</div>	
+			</div>	
+		</main>
+		<script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+	</body>
+</html>
